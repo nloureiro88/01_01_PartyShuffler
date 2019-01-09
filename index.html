@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>! PartyShuffler !</title>
+	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Raleway:300,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+	<h1>Party Shuffler</h1>
+</header>
+
+<div id="main">
+	
+	<div id="players">
+
+		<div>
+			<form id="friends">
+		      <label for="newitem">add friend</label>
+		      <input autocomplete="off" maxlength="15" type="text" name="newitem" id="newitem">
+		      <button type="sumbit"><i class="fas fa-user-check fa-lg"></i></button>
+		    </form>
+		</div>
+
+		<div id="input">
+			<ul>
+			</ul>
+		</div>
+
+		<div>
+			<form id="options">
+		      <label for="team">number of teams</label>
+		      <select id="team" name="team" size="1">
+				  <option value="1">-</option>
+				  <option value="2">2</option>
+				  <option value="3">3</option>
+				  <option value="4">4</option>
+				</select>
+		    </form>
+		</div>
+
+	</div>
+
+	<div id="results">
+
+		<div id="actions">
+			<p id="snext">sort next</p>
+			<p id="sall">sort all</p>
+			<p id="sreset">reset</p>
+		</div>
+
+		<div id="output">
+			<ul>
+			</ul>
+		</div>
+
+	</div>
+
+</div>
+
+<!-- <footer>&#169; 2019 nloureiro88 <a href="https://github.com/nloureiro88" target="_blank"><i class="fa fa-github"></i></a></footer> -->
+
+<script src="app.js"></script>
+</body>
+
+</html>

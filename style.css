@@ -1,0 +1,209 @@
+* {
+	margin:0;
+  	padding:0;
+  	border-radius: 10px;
+  	transition-duration: 0.4s;
+  	transition-delay: 0.1s;
+  	transition-timing-function: ease-in-out;
+}
+
+html {	
+	font-size: 18px;
+	min-width: 500px;
+}
+
+body {
+  	font-family:'Major Mono Display', 'Raleway', sans-serif;
+  	text-align: center;
+  	margin: 2rem;
+  	color: #ffe98a;
+  	background-color: #1a3263;
+}
+
+h1 {	
+	font-size: 2.5rem;
+	margin: 0;
+	padding: 0.5rem 0;
+	color: #ffe98a;
+	border-top: 1px solid #ffe98a;
+	border-bottom: 1px solid #ffe98a;
+	border-radius: 0;
+}
+
+header, #players, #results {
+	width: 100%;
+ 	padding: 0.5rem;
+ 	margin: 1rem 0;
+  	display:flex;
+  	flex-direction: column;
+  	flex-wrap:wrap;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+}
+
+button{
+	background-color: transparent;
+	border: none;
+	color: none;
+}
+
+form { 
+	width: 100%;
+  	display:flex;
+  	align-items: center;
+  	align-content: center;
+  	justify-content: center;
+  	text-align: center;
+}
+
+form label {
+	margin: 0;
+}
+
+form input, form select  {
+  margin: 0.5rem 1.5rem;
+  padding: 0 0.5rem;
+  background-color: #ffe98a;
+  color: #1a3263;
+  height: 2rem;
+  text-align: center;
+  border: none;
+}
+
+form select {
+	cursor: pointer;
+}
+
+form button i {
+	cursor: pointer;
+	color: #ffe98a;
+}
+
+form button i:hover {
+	color: #51e3d4;
+}
+
+#players, #actions {
+	width: 100%;
+	padding: 0.5rem 0;
+}
+
+#input {
+	margin: 1rem 0;
+}
+
+ul{
+	display:flex;
+	flex-wrap: wrap;
+	list-style: none;
+	text-align: center;
+	justify-content: center;
+	margin: 0;
+}
+
+#output ul{
+	flex-direction: column;
+}
+
+#output li{
+	padding: 0.5rem 1rem;
+	margin: 0.4rem 0.5rem;
+}
+
+#output li:last-child{
+	margin-bottom: 1rem;
+}
+
+#input li{
+	text-decoration: none;
+	background-color: #51e3d4;
+	color: #1a3263;
+	padding: 0.5rem 1rem;
+	margin: 0.5rem;
+	cursor: pointer;
+}
+
+#input li:hover{
+	text-decoration: none;
+	background-color: #ef5a5a;
+}
+
+.order {
+	text-decoration: none;
+	background-color: #51e3d4;
+	color: #1a3263;
+	padding: 0.75rem;
+}
+
+.name {
+	text-decoration: none;
+	background-color: #51e3d4;
+	color: #1a3263;
+	padding: 0.75rem;
+}
+
+#actions {
+	display: flex;
+	list-style: none;
+	text-align: center;
+	justify-content: center;
+}
+
+#actions p {
+	border: 1px solid #ffe98a;
+	background-color: #ffe98a;
+	color: #1a3263;
+	padding: 0.2rem 0.5rem;
+	margin: 0.5rem;
+	cursor: pointer;
+}
+
+#actions p:hover {
+	background-color: ©;
+	color: #ffe98a;
+}
+
+#results {
+	margin-top: 0.5rem;
+	background-color: #222831;
+}
+
+.team-1, .team-2, .team-3, .team-4 {
+	text-decoration: none;
+	color: #ffe98a;
+	padding: 0.75rem;
+}
+
+.team-1 {
+	background-color: #0c907d;
+}
+
+.team-2 {
+	background-color: #d3560e;
+}
+
+.team-3 {
+	background-color: #005792;
+}
+
+.team-4 {
+	background-color: #8b104e;
+}
+
+footer {
+	width: 100%;
+	margin-top: 0.2rem;
+	padding: 0.5rem 0;
+	font-size: 0.65rem;
+	text-align: center;
+	bottom:0;
+	color: #ffe98a;
+}
+
+a {color: #ffe98a}
