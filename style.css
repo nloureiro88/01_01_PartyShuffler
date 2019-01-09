@@ -210,11 +210,6 @@ footer {
 
 a {color: #ffe98a}
 
-.mobile{
-	display:flex;
-	flex-direction: row;
-}
-
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
@@ -222,10 +217,6 @@ a {color: #ffe98a}
 	
 html{
 	font-size: 14px;
-}
-
-.mobile{
-	display:block;
 }
 
 #friends{
