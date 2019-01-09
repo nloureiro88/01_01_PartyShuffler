@@ -224,4 +224,8 @@ html{
 	flex-direction: column;
 }
 
+#friends input{
+	width: 100%;
+}
+
 }
