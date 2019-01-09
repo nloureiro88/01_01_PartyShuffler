@@ -209,7 +209,7 @@ footer {
 
 a {color: #ffe98a}
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 	
 html{
 	font-size: 14px;
@@ -218,5 +218,9 @@ html{
 #output ul{
 	flex-direction: column;
 }
+
+#actions p {
+	font-size: 0.7rem;
+	}
 
 }
