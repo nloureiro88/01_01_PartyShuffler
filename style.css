@@ -165,7 +165,7 @@ ul{
 }
 
 #actions p:hover {
-	background-color: ©;
+	background-color: #1a3263;
 	color: #ffe98a;
 }
 
@@ -207,3 +207,12 @@ footer {
 }
 
 a {color: #ffe98a}
+
+@media only screen and (max-width: 600px){
+
+	html{
+		font-size: 24px;
+	}
+
+
+}
